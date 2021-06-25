@@ -1,0 +1,213 @@
+.a{
+  position: relative;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 35px;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+.s{
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+}
+.top-left{
+  position: absolute;
+  top: 0;
+  left: 20px;
+  margin-top: 0;
+}
+.bu{
+  position: absolute;
+  top: 500px;
+  left: 200px;
+}
+.arrow-down {
+  width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 30px solid #2994b2;
+  z-index: 1;
+}
+
+
+
+.b{
+  position: relative;
+  background-color: black;
+  text-align: left;
+  margin-top: 0;
+  bottom: 10px;
+  left: -1px;
+}
+.text1{
+  position: absolute;
+  margin: auto;
+  top: 350px;
+  left: 15px;
+}
+.img1{
+  margin-top: 0;
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.itachi{
+  padding: 0;
+  background-size: cover;
+  position: relative;
+}
+.text2{
+  position: absolute;
+  top: 20px;
+  left: 35%;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+}
+.t21{
+  text-align: left;
+  font-size: 20px;
+  width: 50%;
+  height: 100%;
+}
+.t22{
+    font-size: 100px;
+  color: purple;
+}
+span{
+  color: purple;
+  font-style: italic;
+}
+.c4{
+  margin-top: 32px;
+}
+.c9{
+  margin-top: 15px;
+}
+
+.c{
+  position: relative;
+  margin: 0;
+}
+.eye{
+  position: absolute;
+  top: 20%;
+  left: auto;
+  text-align: center;
+  text-decoration: line-through;
+  font-size: 180px;
+}
+.c1{
+  color: #ffb400;
+  text-decoration: none;
+}
+.c1:hover{
+  color: purple;
+}
+.p2{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  color: purple;
+  width: 22%;
+  height: 5%;
+  text-align: center;
+}
+
+.d2{
+  width: 70%;
+  height: auto;
+}
+
+.td1{
+  font-size: 30px;
+  padding-right: 50px;
+}
+.te{
+  position: relative;
+  left: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.pe{
+  margin-top: 30%;
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: black;
+  width: 600px;
+  height: 450px;
+  /* border: 1px solid #ffb400; */
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: black;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: black;
+  color: #ffb400;
+  transform: rotateY(180deg);
+}
+
+
+body{
+  color: #ffb400;
+  margin: 0;
+  background-color: black;
+  text-align: center;
+  overflow-x: hidden;
+  font-family: 'Merriweather', serif;
+}
+p1{
+  color: purple;
+}
+h1{
+  margin-top: 50px;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  font-weight: bold;
+}
+h3{
+  margin-bottom: 60px;
+}
+table{
+  border-collapse: collapse;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  padding-top: 0;
+}
